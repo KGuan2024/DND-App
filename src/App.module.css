@@ -1,0 +1,37 @@
+.header {
+    padding: var(--spacing-ml) var(--spacing-m);
+    word-break: break-word;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-dark);
+    color: var(--brand-primary);
+    font-family: 'Morris-Roman';
+    letter-spacing: 2px;
+    font-size: var(--font-xl);
+
+}
+
+.appContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.navAndContentContainer {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.contentContainer {
+    display: block;
+    flex-grow: 1;
+    overflow: auto;
+    background-image: url("./assets/images/parchment.jpg");
+    color: var(--text-dark);
+}

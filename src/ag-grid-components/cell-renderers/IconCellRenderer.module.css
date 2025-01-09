@@ -1,0 +1,6 @@
+.iconContainer {
+    display: inline-flex;
+    gap: var(--spacing-s);
+    align-items: center;
+    height: 100%;
+}

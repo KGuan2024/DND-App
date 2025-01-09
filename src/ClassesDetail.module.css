@@ -1,0 +1,85 @@
+.classDetailContainer {
+    padding: var(--spacing-xl);
+    background-color:var(--bg-dark-secondary);
+    color: var(--text-light);
+    min-height: 100%;
+    box-sizing: border-box;
+}
+
+.classData {
+    max-width: 800px;
+    font-size: var(--font-sm);
+
+    img {
+        flex: 1;
+        max-width: 240px;
+        min-width: 150px;
+        max-height: 200px;
+        object-fit: cover;
+        object-position: top;
+        border: var(--border-medium) solid var(--bg-light);
+        border-radius: var(--spacing-m);
+    }
+}
+
+.dataSections {
+    background-image: url("./assets/images/parchment.jpg");
+    background-size: cover;
+    color: var(--text-dark);
+    padding: var(--spacing-l);
+    border-radius: var(--spacing-l);
+}
+
+.imageDescriptionContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: var(--spacing-m);
+
+}
+
+.header {
+    font-size: var(--font-l);
+    font-weight: bold;
+    margin-bottom: var(--spacing-m);
+    padding-bottom: var(--spacing-m);
+    border-bottom: var(--border-thin) solid var(--border);
+}
+
+.description {
+    font-size: var(--font-sm);
+    flex: 1;
+    min-width: 130px;
+}
+
+.sectionHeader {
+    margin: var(--spacing-m) 0 var(--spacing-sm) 0;
+    font-weight: bold;
+    font-size: var(--font-m);
+    border-top: var(--border-thin) solid var(--border);
+    padding-top: var(--spacing-m);
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-s);
+}
+
+.inlineList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.level {
+    color: var(--text-secondary);
+    text-wrap: nowrap;
+}
+
+.proficiencyName, .skillName {
+    margin-right: var(--spacing-s);
+}
+
+.bold {
+    font-weight: bold;
+}

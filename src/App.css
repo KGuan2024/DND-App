@@ -1,0 +1,19 @@
+@import "styles/typography.css";
+
+@font-face {
+  font-family: 'Morris-Roman';
+  src: local('Morris-Roman'), url(./assets/fonts/MorrisRoman-Black.ttf) format('truetype');
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color:  var(--brand-secondary-light) var(--bg-dark);
+}
+
+body .ag-root-wrapper  {
+  --ag-cell-horizontal-padding: var(--spacing-sm);
+  --ag-header-background-color: var(--bg-dark);
+  --ag-header-foreground-color: var(--bg-light);
+  --ag-header-column-resize-handle-color: var(--border);
+  --ag-icon-font-color: var(--bg-light);
+}

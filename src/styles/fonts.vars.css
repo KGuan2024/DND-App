@@ -1,0 +1,10 @@
+:root {
+    --font-s: 0.8rem;
+    --font-sm: 0.85rem;
+    --font-m: 1rem;
+    --font-l: 1.5rem;
+    --font-xl: 2rem;
+    --regular: 400;
+    --medium: 500;
+    --bold: 700;
+}

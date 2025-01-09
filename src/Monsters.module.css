@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: var(--spacing-m) 0;
+    height: 100%;
+    box-sizing: border-box;
+
+    .filterButton  {
+        width: fit-content;
+    }
+
+    header, .filterButton {
+        margin-left: var(--spacing-m)
+    }
+}
+
+.gridUtils {
+    padding: var(--spacing-s) 0;
+}
+
+.filtersAndGridContainer {
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    margin-top: var(--spacing-m);
+}
+
+.filtersContainer {
+    position: absolute;
+    width: fit-content;
+    height: 100%;
+    z-index: 10;
+    background: white;
+    border-right: var(--border-thin) solid var(--border);
+    border-top: var(--border-thin) solid var(--border);
+    box-sizing: border-box;
+    box-shadow: 10px 10px 30px -8px var(--shadow);
+
+}
+
+.gridContainer {
+    margin: 0 var(--spacing-m);
+    flex-grow: 1;
+}
+
+.overlay {
+    width: calc(100% - (2 * var(--spacing-m))) ;
+    height: 100%;
+    position: absolute;
+    background: var(--overlay-bg);
+    z-index: 2;
+}

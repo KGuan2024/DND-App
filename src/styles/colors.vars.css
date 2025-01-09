@@ -1,0 +1,18 @@
+:root {
+    --brand-primary: #a53f3f;
+    --brand-secondary: #595855;
+    --brand-secondary-light: #817b7b;
+    --mui-primary: #2f6789;
+    --bg-light: #f3f3f3;
+    --bg-dark: #3d3737;
+    --bg-dark-secondary: #312e2e;
+    --text-light: #f3f3f3;
+    --text-dark: #3b3b3b;
+    --text-secondary: #414141;
+    --text-secondary-light: #6e6e6e;
+    --border: #6e6e6e;
+    --shadow: color-mix(in srgb, var(--bg-dark), transparent 70%);
+    --overlay-bg: color-mix(in srgb, var(--bg-dark), transparent 80%);
+    --hover-overlay-light: color-mix(in srgb, var(--bg-light), transparent 70%);
+    --hover-overlay-dark: color-mix(in srgb, var(--bg-dark), transparent 70%);
+}
